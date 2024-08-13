@@ -1,7 +1,7 @@
 let user = [];
 let contacts = [];
 let tasks = [];
-const BASE_URL = 'https://join-61eb9-default-rtdb.europe-west1.firebasedatabase.app/';
+const BASE_URL = 'https://joinalex-1e443-default-rtdb.europe-west1.firebasedatabase.app/';
 loadData();
 
 async function loadData() {
@@ -70,8 +70,10 @@ const colorCodes = [
   '#C71585' // Medium Violet Red
 ];
 
+
+
 // This function is to sort the data in database in right way, to work with it correctly.
-// ONLY NECESSARY WITH TESTDATA JSON, ONE TIME
+// ONLY NECESSARY WITH TESTDATA JSON. ONLY ONE TIME.
 // USE ONE TIME IF DATA COMES FROM TESTDATA.JSON
 
 async function uploadTestData() {

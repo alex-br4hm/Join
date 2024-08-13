@@ -14,7 +14,6 @@ async function updateData(path, data) {
     });
   
     let responseAsJson = await response.json();
-    console.log(responseAsJson);
   }
  
   // test zum ändern der daten

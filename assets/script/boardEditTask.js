@@ -198,7 +198,6 @@ function saveEditedSubtask(i, j) {
 
 function deleteSubtask(i, j) {
   tasks[i].subtasks.splice(j, 1);
-  console.table(tasks[i].subtasks);
   renderSubtasksAfterEdit(i);
 }
 

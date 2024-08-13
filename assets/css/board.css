@@ -734,6 +734,10 @@
   border-top-left-radius: 0;
 }
 
+.hovered {
+  background-color: rgba(0, 0, 0, 0.068);
+}
+
 /* RESPONSIVE */
 /* RESPONSIVE */
 /* RESPONSIVE */

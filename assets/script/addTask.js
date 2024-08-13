@@ -547,7 +547,6 @@ async function updateData(path, data) {
   });
 
   let responseAsJson = await response.json();
-  console.log(responseAsJson);
 }
 
 function generateId() {

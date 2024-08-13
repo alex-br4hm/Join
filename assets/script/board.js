@@ -188,7 +188,6 @@ async function getEditedTask(i) {
   tasks[i].description = editedDescription;
   tasks[i].due_date = await formatDueDateAfterEdit(editedDueDate);
   tasks[i].assigned_user = assignedContacts;
-  console.table(tasks[i]);
   editTaskPopUpBackground.innerHTML = renderTaskPopUpHTML(i);
   await updateTaskData(i);
   await loadData();
@@ -420,15 +419,26 @@ closePopUpBtn_2.addEventListener('click', closeAddTaskPopUp);
 // ############################
 
 let currentDraggedElement;
+let taskPosition;
 
 function startDragging(id) {
   currentDraggedElement = id;
 }
 
+function onHover(ev) {
+  ev.preventDefault();
+  ev.target.classList.add('hovered');
+}
+
+function leaveHover(ev) {
+  ev.target.classList.remove('hovered');
+}
+
 async function moveTo(state) {
   let foundItem = tasks.find((item) => item.id === currentDraggedElement);
-  let taskPosition = tasks.findIndex((item) => item.id === currentDraggedElement);
+  taskPosition = tasks.findIndex((item) => item.id === currentDraggedElement);
   foundItem.state = state;
+
   await updateTaskData(taskPosition);
   renderTasksIntoColumns();
 }
@@ -454,25 +464,3 @@ async function setNewState(i, newState) {
   }, 1);
 }
 
-// function renderStateListEditTask(i) {
-//   let actualState = tasks[i].state;
-//   return `
-//     <div class="state-list-item ${
-//       actualState === 'todo' ? 'state-list-item-active' : ''
-//     }" onclick="setNewState(${i}, 'todo')">todo</div>
-//     <div class="state-list-item ${
-//       actualState === 'inprogress' ? 'state-list-item-active' : ''
-//     }" onclick="setNewState(${i}, 'inprogress')">in progress</div>
-//     <div class="state-list-item ${
-//       actualState === 'awaitfeedback' ? 'state-list-item-active' : ''
-//     }" onclick="setNewState(${i}, 'awaitfeedback')">await feedback</div>
-//     <div class="state-list-item ${
-//       actualState === 'done' ? 'state-list-item-active' : ''
-//     }" onclick="setNewState(${i}, 'done')">done</div>
-//   `;
-// }
-
-// function renderStateListAfterEdit(i) {
-//   let statesList = document.getElementById('statesList');
-//   statesList.innerHTML = renderStateListEditTask(i);
-// }

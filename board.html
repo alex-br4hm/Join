@@ -207,8 +207,9 @@
           <div
             class="task-card-container"
             id="todoColumnContainer"
-            ondrop="moveTo('todo')"
-            ondragover="allowDrop(event)"
+            ondrop="moveTo('todo'), leaveHover(event)"
+            ondragover="allowDrop(event), onHover(event)"
+            ondragleave="leaveHover(event)"
           ></div>
         </div>
         <!--  -->
@@ -225,8 +226,9 @@
           <div
             class="task-card-container"
             id="inProgressColumnContainer"
-            ondrop="moveTo('inprogress')"
-            ondragover="allowDrop(event)"
+            ondrop="moveTo('inprogress'), leaveHover(event)"
+            ondragover="allowDrop(event), onHover(event)"
+            ondragleave="leaveHover(event)"
           ></div>
         </div>
         <!--  -->
@@ -243,8 +245,9 @@
           <div
             class="task-card-container"
             id="awaitFeedbackColumnContainer"
-            ondrop="moveTo('awaitfeedback')"
-            ondragover="allowDrop(event)"
+            ondrop="moveTo('awaitfeedback'), leaveHover(event)"
+            ondragover="allowDrop(event), onHover(event)"
+            ondragleave="leaveHover(event)"
           ></div>
         </div>
         <!--  -->
@@ -253,8 +256,9 @@
           <div
             class="task-card-container"
             id="doneColumnContainer"
-            ondrop="moveTo('done')"
-            ondragover="allowDrop(event)"
+            ondrop="moveTo('done'), leaveHover(event)"
+            ondragover="allowDrop(event), onHover(event)"
+            ondragleave="leaveHover(event)"
           ></div>
         </div>
       </div>

@@ -1,49 +1,49 @@
 {
    "users": [
       {
-         "name": "Frodo Baggins",
+         "name": "Marty McFly",
          "id": 0,
-         "email": "frodo@shire.com",
-         "password": "ringBearer1",
+         "email": "marty@hillvalley.com",
+         "password": "deloreanTime1",
          "phone": "1234567890",
-         "first_two_letters": "FB",
-         "color": "#1F3D7A"
+         "first_two_letters": "MM",
+         "color": "#FF8C00"
       },
       {
-         "name": "Samwise Gamgee",
+         "name": "Doc Brown",
          "id": 1,
-         "email": "sam@shire.com",
-         "password": "loyalGardener2",
+         "email": "doc@hillvalley.com",
+         "password": "greatScott2",
          "phone": "1234567891",
-         "first_two_letters": "SG",
-         "color": "#4B0082"
+         "first_two_letters": "DB",
+         "color": "#FF4500"
       },
       {
-         "name": "Aragorn Elessar",
+         "name": "Jennifer Parker",
          "id": 2,
-         "email": "aragorn@gondor.com",
-         "password": "kingReturn3",
+         "email": "jennifer@hillvalley.com",
+         "password": "futureGirl3",
          "phone": "1234567892",
-         "first_two_letters": "AE",
-         "color": "#8B0000"
+         "first_two_letters": "JP",
+         "color": "#FF1493"
       },
       {
-         "name": "Legolas Thranduilion",
+         "name": "Biff Tannen",
          "id": 3,
-         "email": "legolas@mirkwood.com",
-         "password": "elfPrince4",
+         "email": "biff@hillvalley.com",
+         "password": "bullyBoss4",
          "phone": "1234567893",
-         "first_two_letters": "LT",
-         "color": "#006400"
+         "first_two_letters": "BT",
+         "color": "#8B4513"
       },
       {
-         "name": "Gandalf Mithrandir",
+         "name": "George McFly",
          "id": 4,
-         "email": "gandalf@middleearth.com",
-         "password": "wizardGrey5",
+         "email": "george@hillvalley.com",
+         "password": "writerDad5",
          "phone": "1234567894",
          "first_two_letters": "GM",
-         "color": "#2F4F4F"
+         "color": "#2E8B57"
       },
       {
          "name": "Mailo Mittelstädt",
@@ -62,227 +62,235 @@
          "phone": "",
          "first_two_letters": "AH",
          "color": "#40E0D0"
-      },
-      {
-         "name": "Alexander Hähnlein",
-         "id": 401465,
-         "email": "cueslsic.alex@gmx.de",
-         "password": "123",
-         "phone": "",
-         "first_two_letters": "AH",
-         "color": "#40E0D0"
       }
    ],
    "contacts": [
-   {
-      "name": "Boromir Denethorion",
-      "id": 5,
-      "email": "boromir@gondor.com",
-      "phone": "1234567895",
-      "first_two_letters": "BD",
-      "color": "#800000"
-   },
-   {
-      "name": "Gimli Glóin'son",
-      "id": 6,
-      "email": "gimli@erebor.com",
-      "phone": "1234567896",
-      "first_two_letters": "GG",
-      "color": "#556B2F"
-   },
-   {
-      "name": "Saruman Curunír",
-      "id": 7,
-      "email": "saruman@isengard.com",
-      "phone": "1234567897",
-      "first_two_letters": "SC",
-      "color": "#483D8B"
-   },
-   {
-      "name": "Galadriel Artanis",
-      "id": 8,
-      "email": "galadriel@lorien.com",
-      "phone": "1234567898",
-      "first_two_letters": "GA",
-      "color": "#800080"
-   },
-   {
-      "name": "Elrond Peredhel",
-      "id": 9,
-      "email": "elrond@rivendell.com",
-      "phone": "1234567899",
-      "first_two_letters": "EP",
-      "color": "#2E8B57"
-   },
-   {
-      "name": "Éowyn Dernhelm",
-      "id": 10,
-      "email": "eowyn@rohan.com",
-      "phone": "1234567800",
-      "first_two_letters": "ED",
-      "color": "#B22222"
-   },
-   {
-      "name": "Faramir Denethorion",
-      "id": 11,
-      "email": "faramir@gondor.com",
-      "phone": "1234567801",
-      "first_two_letters": "FD",
-      "color": "#A52A2A"
-   },
-   {
-      "name": "Meriadoc Brandybuck",
-      "id": 12,
-      "email": "merry@shire.com",
-      "phone": "1234567802",
-      "first_two_letters": "MB",
-      "color": "#6A5ACD"
-   },
-   {
-      "name": "Peregrin Took",
-      "id": 13,
-      "email": "pippin@shire.com",
-      "phone": "1234567803",
-      "first_two_letters": "PT",
-      "color": "#4682B4"
-   },
-   {
-      "name": "Théoden Ednew",
-      "id": 14,
-      "email": "theoden@rohan.com",
-      "phone": "1234567804",
-      "first_two_letters": "TE",
-      "color": "#2F4F4F"
-   },
-   {
-      "name": "Treebeard Fangorn",
-      "id": 15,
-      "email": "treebeard@fangorn.com",
-      "phone": "1234567805",
-      "first_two_letters": "TF",
-      "color": "#228B22"
-   },
-   {
-      "name": "Sauron Mairon",
-      "id": 16,
-      "email": "sauron@mordor.com",
-      "phone": "1234567806",
-      "first_two_letters": "SM",
-      "color": "#B22222"
-   },
-   {
-      "name": "Gollum Sméagol",
-      "id": 17,
-      "email": "gollum@mistymountains.com",
-      "phone": "1234567807",
-      "first_two_letters": "GS",
-      "color": "#8B4513"
-   },
-   {
-      "name": "Bilbo Baggins",
-      "id": 18,
-      "email": "bilbo@shire.com",
-      "phone": "1234567808",
-      "first_two_letters": "BB",
-      "color": "#8B008B"
-   },
-   {
-      "name": "Arwen Undómiel",
-      "id": 19,
-      "email": "arwen@rivendell.com",
-      "phone": "1234567809",
-      "first_two_letters": "AU",
-      "color": "#9400D3"
-   }
-],
-"tasks": [
-   {
-      "name": "Destroy the One Ring",
-      "id": 31,
-      "description": "Take the One Ring to Mount Doom and destroy it.",
-      "category": "User Story",
-      "priority": "high",
-      "due_date": "26/08/2024",
-      "state": "todo",
-      "assigned_user": [
-         { "name": "Frodo Baggins", "first_two_letters": "FB" },
-         { "name": "Samwise Gamgee", "first_two_letters": "SG" }
-      ],
-      "subtasks": [
-         { "subtask_name": "Reach Rivendell", "subtask_isdone": true },
-         { "subtask_name": "Pass through Moria", "subtask_isdone": false }
-      ]
-   },
-   {
-      "name": "Defend Helm's Deep",
-      "id": 32,
-      "description": "Defend the fortress of Helm's Deep against Saruman's army.",
-      "category": "User Story",
-      "priority": "high",
-      "due_date": "26/07/2024",
-      "state": "inprogress",
-      "assigned_user": [
-         { "name": "Aragorn Elessar", "first_two_letters": "AE" },
-         { "name": "Legolas Thranduilion", "first_two_letters": "LT" },
-         { "name": "Gimli Glóin'son", "first_two_letters": "GG" }
-      ],
-      "subtasks": [
-         { "subtask_name": "Rally the troops", "subtask_isdone": true },
-         { "subtask_name": "Fortify the walls", "subtask_isdone": true }
-      ]
-   },
-   {
-      "name": "Rescue Merry and Pippin",
-      "id": 33,
-      "description": "Find and rescue Merry and Pippin from the Uruk-hai.",
-      "category": "User Story",
-      "priority": "medium",
-      "due_date": "26/07/2024",
-      "state": "done",
-      "assigned_user": [
-         { "name": "Aragorn Elessar", "first_two_letters": "AE" },
-         { "name": "Legolas Thranduilion", "first_two_letters": "LT" },
-         { "name": "Gimli Glóin'son", "first_two_letters": "GG" }
-      ],
-      "subtasks": [
-         { "subtask_name": "Track the Uruk-hai", "subtask_isdone": true },
-         { "subtask_name": "Engage in combat", "subtask_isdone": true }
-      ]
-   },
-   {
-      "name": "Convince the Ents",
-      "id": 34,
-      "description": "Convince Treebeard and the Ents to join the fight against Saruman.",
-      "category": "User Story",
-      "priority": "medium",
-      "due_date": "26/07/2024",
-      "state": "inprogress",
-      "assigned_user": [
-         { "name": "Meriadoc Brandybuck", "first_two_letters": "MB" },
-         { "name": "Peregrin Took", "first_two_letters": "PT" }
-      ],
-      "subtasks": [
-         { "subtask_name": "Find Treebeard", "subtask_isdone": true },
-         { "subtask_name": "Attend Entmoot", "subtask_isdone": false }
-      ]
-   },
-   {
-      "name": "Frodo's Journey",
-      "id": 35,
-      "description": "Ensure Frodo safely makes his journey to destroy the One Ring.",
-      "category": "Technical Task",
-      "priority": "high",
-      "due_date": "26/08/2024",
-      "state": "todo",
-      "assigned_user": [
-         { "name": "Samwise Gamgee", "first_two_letters": "SG" },
-         { "name": "Frodo Baggins", "first_two_letters": "FB" }
-      ],
-      "subtasks": [
-         { "subtask_name": "Escape the Shire", "subtask_isdone": true },
-         { "subtask_name": "Cross the Brandywine River", "subtask_isdone": true },
-         { "subtask_name": "Reach Bree", "subtask_isdone": false }
-      ]
-   }
-]
+      {
+         "name": "Lorraine Baines",
+         "id": 5,
+         "email": "lorraine@hillvalley.com",
+         "phone": "1234567895",
+         "first_two_letters": "LB",
+         "color": "#9400D3"
+      },
+      {
+         "name": "Strickland",
+         "id": 6,
+         "email": "strickland@hillvalley.com",
+         "phone": "1234567896",
+         "first_two_letters": "ST",
+         "color": "#483D8B"
+      },
+      {
+         "name": "Einstein",
+         "id": 7,
+         "email": "einstein@hillvalley.com",
+         "phone": "1234567897",
+         "first_two_letters": "EI",
+         "color": "#FFD700"
+      },
+      {
+         "name": "Clara Clayton",
+         "id": 8,
+         "email": "clara@hillvalley.com",
+         "phone": "1234567898",
+         "first_two_letters": "CC",
+         "color": "#FF69B4"
+      },
+      {
+         "name": "Griff Tannen",
+         "id": 9,
+         "email": "griff@hillvalley.com",
+         "phone": "1234567899",
+         "first_two_letters": "GT",
+         "color": "#8B0000"
+      },
+      {
+         "name": "Mayor Goldie Wilson",
+         "id": 10,
+         "email": "goldie@hillvalley.com",
+         "phone": "1234567800",
+         "first_two_letters": "GW",
+         "color": "#FFD700"
+      },
+      {
+         "name": "Needles",
+         "id": 11,
+         "email": "needles@hillvalley.com",
+         "phone": "1234567801",
+         "first_two_letters": "ND",
+         "color": "#8B4513"
+      }
+   ],
+   "tasks": [
+      {
+         "name": "Get the DeLorean to 88mph",
+         "id": 31,
+         "description": "Ensure the DeLorean reaches 88mph to activate time travel.",
+         "category": "Technical Task",
+         "priority": "high",
+         "due_date": "15/09/2024",
+         "state": "todo",
+         "assigned_user": [
+            { "name": "Marty McFly", "first_two_letters": "MM" },
+            { "name": "Doc Brown", "first_two_letters": "DB" }
+         ],
+         "subtasks": [
+            { "subtask_name": "Check fuel levels", "subtask_isdone": false },
+            { "subtask_name": "Adjust time circuits", "subtask_isdone": false }
+         ]
+      },
+      {
+         "name": "Avoid Biff in 1955",
+         "id": 32,
+         "description": "Ensure Biff does not alter the timeline in 1955.",
+         "category": "User Story",
+         "priority": "high",
+         "due_date": "20/09/2024",
+         "state": "inprogress",
+         "assigned_user": [
+            { "name": "Marty McFly", "first_two_letters": "MM" },
+            { "name": "George McFly", "first_two_letters": "GM" }
+         ],
+         "subtasks": [
+            { "subtask_name": "Keep Biff away from the dance", "subtask_isdone": false },
+            { "subtask_name": "Ensure Lorraine and George meet", "subtask_isdone": true }
+         ]
+      },
+      {
+         "name": "Fix the DeLorean",
+         "id": 33,
+         "description": "Repair the DeLorean after it gets damaged.",
+         "category": "Technical Task",
+         "priority": "medium",
+         "due_date": "25/09/2024",
+         "state": "inprogress",
+         "assigned_user": [
+            { "name": "Doc Brown", "first_two_letters": "DB" },
+            { "name": "Marty McFly", "first_two_letters": "MM" }
+         ],
+         "subtasks": [
+            { "subtask_name": "Replace the flux capacitor", "subtask_isdone": true },
+            { "subtask_name": "Recharge the time circuits", "subtask_isdone": false }
+         ]
+      },
+      {
+         "name": "Attend the Enchantment Under the Sea dance",
+         "id": 34,
+         "description": "Ensure Marty and his parents attend the dance to secure the future.",
+         "category": "User Story",
+         "priority": "high",
+         "due_date": "18/09/2024",
+         "state": "todo",
+         "assigned_user": [
+            { "name": "Marty McFly", "first_two_letters": "MM" },
+            { "name": "Lorraine Baines", "first_two_letters": "LB" },
+            { "name": "George McFly", "first_two_letters": "GM" }
+         ],
+         "subtasks": [
+            { "subtask_name": "Find a suit for Marty", "subtask_isdone": false },
+            { "subtask_name": "Prepare the DeLorean for the escape", "subtask_isdone": true }
+         ]
+      },
+      {
+         "name": "Rescue Jennifer in 2015",
+         "id": 35,
+         "description": "Retrieve Jennifer from 2015 and return her to the correct timeline.",
+         "category": "User Story",
+         "priority": "medium",
+         "due_date": "30/09/2024",
+         "state": "todo",
+         "assigned_user": [
+            { "name": "Marty McFly", "first_two_letters": "MM" },
+            { "name": "Doc Brown", "first_two_letters": "DB" }
+         ],
+         "subtasks": [
+            { "subtask_name": "Locate Jennifer in Hill Valley", "subtask_isdone": false },
+            { "subtask_name": "Avoid future Biff", "subtask_isdone": false }
+         ]
+      },
+      {
+         "name": "Save the clock tower",
+         "id": 36,
+         "description": "Ensure the clock tower lightning strike occurs as planned.",
+         "category": "User Story",
+         "priority": "high",
+         "due_date": "22/09/2024",
+         "state": "inprogress",
+         "assigned_user": [
+            { "name": "Doc Brown", "first_two_letters": "DB" }
+         ],
+         "subtasks": [
+            { "subtask_name": "Prepare the cable connection", "subtask_isdone": true },
+            { "subtask_name": "Synchronize the DeLorean's speed", "subtask_isdone": false }
+         ]
+      },
+      {
+         "name": "Stop Biff from getting the almanac",
+         "id": 37,
+         "description": "Prevent Biff from acquiring the sports almanac and altering the future.",
+         "category": "User Story",
+         "priority": "high",
+         "due_date": "25/09/2024",
+         "state": "todo",
+         "assigned_user": [
+            { "name": "Marty McFly", "first_two_letters": "MM" },
+            { "name": "Doc Brown", "first_two_letters": "DB" }
+         ],
+         "subtasks": [
+            { "subtask_name": "Locate the almanac", "subtask_isdone": false },
+            { "subtask_name": "Avoid 1955 Biff", "subtask_isdone": false }
+         ]
+      },
+      {
+         "name": "Attend the Hill Valley Festival",
+         "id": 38,
+         "description": "Celebrate the history of Hill Valley while ensuring no disruptions to the timeline.",
+         "category": "User Story",
+         "priority": "medium",
+         "due_date": "28/09/2024",
+         "state": "todo",
+         "assigned_user": [
+            { "name": "Marty McFly", "first_two_letters": "MM" },
+            { "name": "Jennifer Parker", "first_two_letters": "JP" }
+         ],
+         "subtasks": [
+            { "subtask_name": "Check historical displays", "subtask_isdone": false },
+            { "subtask_name": "Avoid interaction with past selves", "subtask_isdone": false }
+         ]
+      },
+      {
+         "name": "Return to 1985",
+         "id": 39,
+         "description": "Ensure that Marty and Doc safely return to 1985 without altering the timeline.",
+         "category": "Technical Task",
+         "priority": "high",
+         "due_date": "01/10/2024",
+         "state": "todo",
+         "assigned_user": [
+            { "name": "Marty McFly", "first_two_letters": "MM" },
+            { "name": "Doc Brown", "first_two_letters": "DB" }
+         ],
+         "subtasks": [
+            { "subtask_name": "Adjust time circuits to 1985", "subtask_isdone": false },
+            { "subtask_name": "Ensure no items from the past are brought back", "subtask_isdone": false }
+         ]
+      },
+      {
+         "name": "Destroy the time machine",
+         "id": 40,
+         "description": "Dismantle the DeLorean to prevent further time travel risks.",
+         "category": "Technical Task",
+         "priority": "high",
+         "due_date": "05/10/2024",
+         "state": "todo",
+         "assigned_user": [
+            { "name": "Doc Brown", "first_two_letters": "DB" }
+         ],
+         "subtasks": [
+            { "subtask_name": "Remove the flux capacitor", "subtask_isdone": false },
+            { "subtask_name": "Disassemble the time circuits", "subtask_isdone": false }
+         ]
+      }
+   ]
 }

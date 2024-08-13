@@ -25,13 +25,8 @@ document.addEventListener('click', (event) => {
 
 function checkUser(user) {
   console.log('Angemeldeter Benutzer:', user.name);
-  // document.getElementById('headerUserIcon').innerHTML = user.first_two_letters;
 }
 
-// function showUserLetter(){
-//    currentUserAvatar = sessionStorage.getItem("loggedIn");
-//    document.getElementById('headerUserIcon').innerHTML = currentUserAvatar;
-//    }
 
 async function showUserLetter() {
   if (sessionStorage.length != 0) {
