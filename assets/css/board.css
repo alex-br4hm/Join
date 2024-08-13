@@ -127,6 +127,7 @@
   gap: 16px;
   min-height: 100%;
   padding-bottom: 3vh;
+  transition: all 150ms ease-in-out;
 }
 
 .task-card {
@@ -734,7 +735,7 @@
   border-top-left-radius: 0;
 }
 
-.hovered {
+.task-card-container.hovered {
   background-color: rgba(0, 0, 0, 0.068);
 }
 

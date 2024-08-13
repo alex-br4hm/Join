@@ -427,11 +427,20 @@ function startDragging(id) {
 
 function onHover(ev) {
   ev.preventDefault();
-  ev.target.classList.add('hovered');
+  
+  // Suche das nächste übergeordnete Element mit der Klasse 'task-card-container'
+  let container = ev.target.closest('.task-card-container');
+  if (container) {
+    container.classList.add('hovered');
+  }
 }
 
 function leaveHover(ev) {
-  ev.target.classList.remove('hovered');
+    // Suche das nächste übergeordnete Element mit der Klasse 'task-card-container'
+    let container = ev.target.closest('.task-card-container');
+    if (container) {
+      container.classList.remove('hovered');
+    }
 }
 
 async function moveTo(state) {
