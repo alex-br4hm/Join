@@ -2,19 +2,53 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>Join</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/addTask.css" />
-    <link rel="stylesheet" href="./assets/css/board.css" />
-    <link rel="shortcut icon" href="./assets/img/join_logo_dark.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/addTask.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/css/board.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/join_logo_dark.png"
+      type="image/x-icon"
+    />
     <!-- <script src="./assets/script/testData.js" defer></script> -->
-    <script src="./assets/script/data.js" defer></script>
-    <script src="./assets/script/script.js" defer></script>
-    <script src="./assets/script/boardHTML.js" defer></script>
-    <script src="./assets/script/board.js" defer></script>
-    <script src="./assets/script/boardEditTask.js" defer></script>
-    <script src="./assets/script/boardAddTask.js" defer></script>
+    <script
+      src="./assets/script/data.js"
+      defer
+    ></script>
+    <script
+      src="./assets/script/script.js"
+      defer
+    ></script>
+    <script
+      src="./assets/script/boardHTML.js"
+      defer
+    ></script>
+    <script
+      src="./assets/script/board.js"
+      defer
+    ></script>
+    <script
+      src="./assets/script/boardEditTask.js"
+      defer
+    ></script>
+    <script
+      src="./assets/script/boardAddTask.js"
+      defer
+    ></script>
   </head>
   <body onload="includeHTML()">
     <div w3-include-html="./assets/templates/header.html"></div>
@@ -31,11 +65,18 @@
             name="search-task"
             class="search-task search-task-desktop"
             id="searchTask"
-            placeholder="find Task"
+            placeholder="find task"
             autocomplete="off"
           />
-          <div class="add-task-btn" onclick="openAddTaskPopUp('todo')">
-            <span>Add task</span> <img src="./assets/img/add_icon.svg" alt="" />
+          <div
+            class="add-task-btn"
+            onclick="openAddTaskPopUp('todo')"
+          >
+            <span>Add task</span>
+            <img
+              src="./assets/img/add_icon.svg"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -46,15 +87,22 @@
           onkeyup="handleKeyup(event)"
           class="search-task search-task-mobile"
           id="searchTask"
-          placeholder="find Task"
+          placeholder="find task"
           autocomplete="off"
         />
       </div>
       <!--  -->
 
       <!-- ADD TASK POP UP -->
-      <div class="add-task-popup-board-container d-none" id="addTaskPopUpBackground" onclick="closeAddTaskPopUp()">
-        <div class="add-task-popup-board" id="addTaskPopUp">
+      <div
+        class="add-task-popup-board-container d-none"
+        id="addTaskPopUpBackground"
+        onclick="closeAddTaskPopUp()"
+      >
+        <div
+          class="add-task-popup-board"
+          id="addTaskPopUp"
+        >
           <img
             src="./assets/img/close_big_icon.png"
             alt=""
@@ -67,8 +115,14 @@
 
       <!-- EXISTING TASK POP UP -->
 
-      <div class="existing-task-popup-board-container d-none" id="editTaskPopUpBackground">
-        <div class="existing-task-popup-board" id="editTaskPopUp">
+      <div
+        class="existing-task-popup-board-container d-none"
+        id="editTaskPopUpBackground"
+      >
+        <div
+          class="existing-task-popup-board"
+          id="editTaskPopUp"
+        >
           <img
             src="./assets/img/close_big_icon.png"
             alt=""
@@ -78,12 +132,23 @@
           />
           <!-- pop up content -->
           <div class="category-user-story task-category">User Story</div>
-          <div class="existing-task-popup-headline">Kochwelt Page & Recipe Recommender</div>
-          <div class="existing-task-popup-description">Build start page with recipe recommendation</div>
-          <div class="existing-task-popup-date">Due date: <span id="popUpDate">10/05/2024</span></div>
+          <div class="existing-task-popup-headline">
+            Kochwelt Page & Recipe Recommender
+          </div>
+          <div class="existing-task-popup-description">
+            Build start page with recipe recommendation
+          </div>
+          <div class="existing-task-popup-date">
+            Due date: <span id="popUpDate">10/05/2024</span>
+          </div>
           <div class="existing-task-popup-priority">
             Priority:
-            <span id="popUpDate">Medium <img src="./assets/img/prio_medium.png" alt="" /></span>
+            <span id="popUpDate"
+              >Medium
+              <img
+                src="./assets/img/prio_medium.png"
+                alt=""
+            /></span>
           </div>
           <div class="existing-task-popup-user-wrapper">
             <div class="popup-user-headline">Assigned to:</div>
@@ -104,7 +169,9 @@
             <div class="popup-subtask-headline">Subtasks</div>
             <div class="popup-subtask-task">
               <div class="task-done-state task-done-state-checked"></div>
-              <div class="popup-subtask-name">Implement Recipe Recommendation</div>
+              <div class="popup-subtask-name">
+                Implement Recipe Recommendation
+              </div>
             </div>
             <div class="popup-subtask-task">
               <div class="task-done-state"></div>

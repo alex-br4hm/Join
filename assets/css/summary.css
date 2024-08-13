@@ -1,276 +1,276 @@
 p {
-    margin: 0;
+  margin: 0;
 }
 
 h1 {
-    font-size: 48px;
+  font-size: 48px;
 }
 
 .content {
-    margin-left: 232px;
-    display: flex;
+  margin-left: 232px;
+  display: flex;
 }
 
 .headline-summary {
-    margin-top: 96px;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    margin-left: 300px;
+  margin-top: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-left: 300px;
 }
 
 .interactionContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 560px;
-    width: 562px;
-    margin-left: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 560px;
+  width: 562px;
+  margin-left: 58px;
 }
 
 .seperationLine {
-    height: 50px;
-    width: 1px;
-    border: 1px solid #28abe2;
-    background-color: #28abe2;
-    border-radius: 25px;
-    margin: 10px;
+  height: 50px;
+  width: 1px;
+  border: 1px solid #28abe2;
+  background-color: #28abe2;
+  border-radius: 25px;
+  margin: 10px;
 }
 
 .seperationLineLong {
-    height: 100px;
-    width: 1px;
-    border: 1px solid #bdbdbd;
-    background-color: #bdbdbd;
-    border-radius: 25px;
-    margin: 50px;
+  height: 100px;
+  width: 1px;
+  border: 1px solid #bdbdbd;
+  background-color: #bdbdbd;
+  border-radius: 25px;
+  margin: 50px;
 }
 
 .container {
-    background-color: white;
-    border: 1px solid gray;
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-    text-wrap: wrap;
-    width: 264px;
-    height: 168px;
-    transition: all 100ms ease-in-out;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  text-wrap: wrap;
+  width: 264px;
+  height: 168px;
+  transition: all 100ms ease-in-out;
 }
 
 .container:hover {
-    background-color: #2a3647;
+  background-color: #2a3647;
+  color: white;
+  transform: scale(1.1);
+  cursor: pointer;
+
+  .taskNumber {
     color: white;
-    transform: scale(1.1);
-    cursor: pointer;
+  }
 
-    .taskNumber {
-        color: white;
-    }
+  .procressImgDone {
+    background-image: url(../img/Frame\ 59-2.png);
+  }
 
-    .procressImgDone {
-        background-image: url(../img/Frame\ 59-2.png);
-    }
-
-    .procressImgToDo {
-        background-image: url(../img/Frame\ 59\ Kopie.png);
-    }
+  .procressImgToDo {
+    background-image: url(../img/Frame\ 59\ Kopie.png);
+  }
 }
 
 .Task {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
 }
 
 .taskStatus {
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 25px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 25px;
 }
 
 .containerLong {
-    background-color: white;
-    border: 1px solid gray;
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-    text-wrap: wrap;
-    width: 560px;
-    height: 168px;
-    transition: transform 0.3s ease-in-out;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  text-wrap: wrap;
+  width: 560px;
+  height: 168px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .containerLong:hover {
-    background-color: #2a3647;
-    color: white;
-    transform: translateY(5%);
-    cursor: pointer;
+  background-color: #2a3647;
+  color: white;
+  transform: translateY(5%);
+  cursor: pointer;
 
-    .taskNumber {
-        color: white;
-    }
+  .taskNumber {
+    color: white;
+  }
 }
 
 .containerSmall {
-    background-color: white;
-    border: 1px solid gray;
-    border-radius: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-    text-wrap: wrap;
-    width: 168px;
-    height: 168px;
-    transition: all 100ms ease-in-out;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  text-wrap: wrap;
+  width: 168px;
+  height: 168px;
+  transition: all 100ms ease-in-out;
 }
 
 .containerSmall:hover {
-    background-color: #2a3647;
-    color: white;
-    transform: scale(1.1);
-    cursor: pointer;
+  background-color: #2a3647;
+  color: white;
+  transform: scale(1.1);
+  cursor: pointer;
 
-    .taskNumber {
-        color: white;
-    }
+  .taskNumber {
+    color: white;
+  }
 }
 
 .greeting {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
-    margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  margin-left: 50px;
 }
 
 .greetingH2 {
-    margin: 0;
-    font-size: 45px;
+  margin: 0;
+  font-size: 45px;
 }
 
 .user {
-    color: #28abe2;
-    font-size: 50px;
+  color: #28abe2;
+  font-size: 50px;
 }
 
 .row1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .row2 {
-    display: flex;
+  display: flex;
 }
 
 .row3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .taskNumber {
-    font-size: 45px;
-    font-weight: bold;
-    color: black;
-    display: flex;
-    justify-content: center;
+  font-size: 45px;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  justify-content: center;
 }
 
 .date {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .procressImgDone {
-    background-image: url(../img/Group\ 7.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 70px;
-    width: 70px;
-    object-fit: contain;
+  background-image: url(../img/Group\ 7.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70px;
+  width: 70px;
+  object-fit: contain;
 }
 
 .procressImgToDo {
-    background-image: url(../img/Frame\ 59.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 70px;
-    width: 70px;
-    object-fit: contain;
+  background-image: url(../img/Frame\ 59.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70px;
+  width: 70px;
+  object-fit: contain;
 }
 
 .text-logo-join {
-    font-size: 16px;
+  font-size: 20px;
 }
 
 #loginAnimation {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(254, 253, 253, 1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    animation: fadeOut 1s ease forwards;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(254, 253, 253, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: fadeOut 1s ease forwards;
 }
 
 .welcome-greeting-text {
-    font-size: 24px;
-    color: rgb(13, 13, 13);
-    text-align: center;
-    animation: fadeOut 1s ease;
+  font-size: 24px;
+  color: rgb(13, 13, 13);
+  text-align: center;
+  animation: fadeOut 1s ease;
 }
 
 .user-nick-login-greetings {
-    font-size: 47px;
-    color: #28abe2;
-    margin: 0;
-    animation: fadeOut 1s ease;
+  font-size: 47px;
+  color: #28abe2;
+  margin: 0;
+  animation: fadeOut 1s ease;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 @keyframes fadeOut {
-    0% {
-        background-color: rgba(254, 253, 253, 1);
-        opacity: 1;
-    }
+  0% {
+    background-color: rgba(254, 253, 253, 1);
+    opacity: 1;
+  }
 
-    80% {
-        background-color: rgba(254, 253, 253, 1);
-        opacity: 1;
-    }
+  80% {
+    background-color: rgba(254, 253, 253, 1);
+    opacity: 1;
+  }
 
-    95% {
-        background-color: rgba(254, 253, 253, 0.2);
-        opacity: 0.2;
-    }
+  95% {
+    background-color: rgba(254, 253, 253, 0.2);
+    opacity: 0.2;
+  }
 
-    100% {
-        background-color: rgba(0, 0, 0, 0);
-        opacity: 0;
-    }
+  100% {
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+  }
 }
 
 .fadeOutAnimation.finished {
-    display: none;
+  display: none;
 }
 
 /**************************/
@@ -279,356 +279,356 @@ h1 {
 /**************************/
 
 @media only screen and (max-width: 1110px) {
-    .greetingH2 {
-        font-size: 35px;
-    }
+  .greetingH2 {
+    font-size: 35px;
+  }
 
-    .user {
-        font-size: 40px;
-    }
+  .user {
+    font-size: 40px;
+  }
 }
 
 @media only screen and (max-width: 1050px) {
-    .greetin {
-        margin-left: 37px;
-    }
+  .greetin {
+    margin-left: 37px;
+  }
 
-    .greetingH2 {
-        font-size: 25px;
-    }
+  .greetingH2 {
+    font-size: 25px;
+  }
 
-    .user {
-        font-size: 35px;
-    }
+  .user {
+    font-size: 35px;
+  }
 }
 
 @media only screen and (max-width: 1015px) {
-    .greeting {
-        margin-left: 35px;
-    }
+  .greeting {
+    margin-left: 35px;
+  }
 
-    .greetingH2 {
-        font-size: 25px;
-    }
+  .greetingH2 {
+    font-size: 25px;
+  }
 
-    .user {
-        font-size: 35px;
-    }
+  .user {
+    font-size: 35px;
+  }
 }
 
 @media only screen and (max-width: 1015px) {
-    .greeting {
-        display: none;
-    }
+  .greeting {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 865px) {
-    .content {
-        margin-left: 207px;
-    }
+  .content {
+    margin-left: 207px;
+  }
 }
 
 @media screen and (min-width: 841px) {
-    #loginAnimation {
-        display: none;
-    }
+  #loginAnimation {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 840px) {
-    .content {
-        margin-left: 87px;
-    }
+  .content {
+    margin-left: 87px;
+  }
 
-    .headline-summary {
-        margin-left: 236px;
-    }
+  .headline-summary {
+    margin-left: 236px;
+  }
 
-    .greeting-login-animation-container {
-        display: flex;
-    }
+  .greeting-login-animation-container {
+    display: flex;
+  }
 }
 
 @media only screen and (max-width: 730px) {
-    .content {
-        margin-left: 30px;
-    }
+  .content {
+    margin-left: 30px;
+  }
 
-    .headline-summary {
-        margin-left: 166px;
-    }
+  .headline-summary {
+    margin-left: 166px;
+  }
 }
 
 @media only screen and (max-width: 675px) {
-    .content {
-        margin-left: 0px;
-    }
+  .content {
+    margin-left: 0px;
+  }
 
-    .headline-summary {
-        margin-left: 130px;
-    }
+  .headline-summary {
+    margin-left: 130px;
+  }
 }
 
 @media only screen and (max-width: 645px) {
-    .content {
-        margin-left: 0px;
-    }
+  .content {
+    margin-left: 0px;
+  }
 
-    .headline-summary {
-        margin-left: 120px;
-    }
+  .headline-summary {
+    margin-left: 120px;
+  }
 
-    .interactionContainer {
-        margin-left: 0px;
-        width: 100%;
-    }
+  .interactionContainer {
+    margin-left: 0px;
+    width: 100%;
+  }
 
-    /* Alex css */
-    .container {
-        height: 15vh;
-    }
+  /* Alex css */
+  .container {
+    height: 15vh;
+  }
 
-    .containerLong {
-        height: 15vh;
-    }
+  .containerLong {
+    height: 15vh;
+  }
 
-    .containerSmall {
-        height: 15vh;
-    }
+  .containerSmall {
+    height: 15vh;
+  }
 
-    .interactionContainer {
-        height: unset;
-    }
+  .interactionContainer {
+    height: unset;
+  }
 }
 
 @media only screen and (max-width: 585px) {
-    .content {
-        margin-left: 0px;
-    }
+  .content {
+    margin-left: 0px;
+  }
 
-    .headline-summary {
-        margin-left: 100px;
-    }
+  .headline-summary {
+    margin-left: 100px;
+  }
 
-    .interactionContainer {
-        margin-left: 0px;
-        width: 100%;
-    }
+  .interactionContainer {
+    margin-left: 0px;
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 575px) {
-    .content {
-        margin-left: 0px;
-    }
+  .content {
+    margin-left: 0px;
+  }
 
-    .headline-summary {
-        margin-left: 85px;
-    }
+  .headline-summary {
+    margin-left: 85px;
+  }
 
-    .interactionContainer {
-        margin-left: 0px;
-        width: 100%;
-    }
+  .interactionContainer {
+    margin-left: 0px;
+    width: 100%;
+  }
 
-    .tasks {
-        width: 100%;
-    }
+  .tasks {
+    width: 100%;
+  }
 
-    .row2 {
-        width: 100%;
-    }
+  .row2 {
+    width: 100%;
+  }
 
-    .taskStatus {
-        font-size: 20px;
-    }
+  .taskStatus {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 560px) {
-    h1 {
-        font-size: 45px;
-    }
+  h1 {
+    font-size: 45px;
+  }
 }
 
 @media only screen and (max-width: 530px) {
-    .headline-summary {
-        margin-left: 45px;
-    }
+  .headline-summary {
+    margin-left: 45px;
+  }
 
-    h1 {
-        font-size: 45px;
-    }
+  h1 {
+    font-size: 45px;
+  }
 }
 
 @media only screen and (max-width: 455px) {
-    .headline-summary {
-        margin-left: 30px;
-    }
+  .headline-summary {
+    margin-left: 30px;
+  }
 
-    h1 {
-        font-size: 45px;
-    }
+  h1 {
+    font-size: 45px;
+  }
 }
 
 @media only screen and (max-width: 440px) {
-    .content {
-        margin-left: 0px;
-    }
+  .content {
+    margin-left: 0px;
+  }
 
-    .headline-summary {
-        margin-left: 26px;
-    }
+  .headline-summary {
+    margin-left: 26px;
+  }
 
-    .interactionContainer {
-        margin-left: 0px;
-        width: 100%;
-    }
+  .interactionContainer {
+    margin-left: 0px;
+    width: 100%;
+  }
 
-    .tasks {
-        width: 100%;
-    }
+  .tasks {
+    width: 100%;
+  }
 
-    .row2 {
-        width: 100%;
-    }
+  .row2 {
+    width: 100%;
+  }
 
-    .taskStatus {
-        font-size: 16px;
-        padding-left: 19px;
-    }
+  .taskStatus {
+    font-size: 16px;
+    padding-left: 19px;
+  }
 
-    .seperationLineLong {
-        margin: 45px;
-    }
+  .seperationLineLong {
+    margin: 45px;
+  }
 }
 
 @media only screen and (max-width: 433px) {
-    .headline-summary {
-        margin-left: 12px;
-    }
+  .headline-summary {
+    margin-left: 12px;
+  }
 
-    h1 {
-        font-size: 43px;
-    }
+  h1 {
+    font-size: 43px;
+  }
 
-    .seperationLineLong {
-        margin: 35px;
-    }
+  .seperationLineLong {
+    margin: 35px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
-    .headline-summary {
-        margin-left: 18px;
-    }
+  .headline-summary {
+    margin-left: 18px;
+  }
 
-    h1 {
-        font-size: 43px;
-    }
+  h1 {
+    font-size: 43px;
+  }
 
-    .procressImg {
-        width: 50px;
-        padding-left: 5px;
-    }
+  .procressImg {
+    width: 50px;
+    padding-left: 5px;
+  }
 
-    .seperationLineLong {
-        margin: 35px;
-    }
+  .seperationLineLong {
+    margin: 35px;
+  }
 
-    .text-logo-join {
-        font-size: 12px;
-    }
+  .text-logo-join {
+    font-size: 12px;
+  }
 }
 
 @media only screen and (max-width: 385px) {
-    .headline-summary {
-        margin-left: 18px;
-    }
+  .headline-summary {
+    margin-left: 18px;
+  }
 
-    h1 {
-        font-size: 40px;
-    }
+  h1 {
+    font-size: 40px;
+  }
 
-    .procressImg {
-        width: 50px;
-        padding-left: 5px;
-    }
+  .procressImg {
+    width: 50px;
+    padding-left: 5px;
+  }
 
-    .seperationLineLong {
-        margin: 30px;
-    }
+  .seperationLineLong {
+    margin: 30px;
+  }
 }
 
 @media only screen and (max-width: 375px) {
-    .headline-summary {
-        margin-left: 18px;
-    }
+  .headline-summary {
+    margin-left: 18px;
+  }
 
-    h1 {
-        font-size: 40px;
-    }
+  h1 {
+    font-size: 40px;
+  }
 
-    .procressImg {
-        width: 50px;
-        padding-left: 5px;
-    }
+  .procressImg {
+    width: 50px;
+    padding-left: 5px;
+  }
 
-    .seperationLineLong {
-        margin: 30px;
-    }
+  .seperationLineLong {
+    margin: 30px;
+  }
 }
 
 @media only screen and (max-width: 365px) {
-    .content {
-        margin-left: 0px;
-    }
+  .content {
+    margin-left: 0px;
+  }
 
-    .headline-summary {
-        margin-left: 0px;
-    }
+  .headline-summary {
+    margin-left: 0px;
+  }
 
-    .interactionContainer {
-        margin-left: 0;
-        width: 100%;
-    }
+  .interactionContainer {
+    margin-left: 0;
+    width: 100%;
+  }
 
-    .Task {
-        margin-left: 6px;
-    }
+  .Task {
+    margin-left: 6px;
+  }
 
-    .tasks {
-        width: 100%;
-    }
+  .tasks {
+    width: 100%;
+  }
 
-    .taskNumber {
-        font-size: 36px;
-    }
+  .taskNumber {
+    font-size: 36px;
+  }
 
-    .row2 {
-        width: 100%;
-    }
+  .row2 {
+    width: 100%;
+  }
 
-    .procressImg {
-        width: 50px;
-        padding-left: 5px;
-    }
+  .procressImg {
+    width: 50px;
+    padding-left: 5px;
+  }
 
-    .seperationLineLong {
-        margin: 10px;
-    }
+  .seperationLineLong {
+    margin: 10px;
+  }
 
-    .taskStatus {
-        font-size: 15px;
-        padding-left: 15px;
-    }
+  .taskStatus {
+    font-size: 15px;
+    padding-left: 15px;
+  }
 
-    .text-logo-join {
-        font-size: 10px;
-    }
+  .text-logo-join {
+    font-size: 10px;
+  }
 
-    h1 {
-        font-size: 36px;
-        margin-left: 4px;
-    }
+  h1 {
+    font-size: 36px;
+    margin-left: 4px;
+  }
 
-    .done-text {
-        padding-right: 4px;
-    }
+  .done-text {
+    padding-right: 4px;
+  }
 }
