@@ -6,24 +6,19 @@ async function initPageSummary() {
     await includeHTML();
 }
 
-// Initial ist die Animation noch nicht abgespielt
-let animationPlayed = false;
 
-// Zähler initialisieren
+let animationPlayed = false;
 let toDoCounter = 0;
 let inProgressCounter = 0;
 let awaitFeedbackCounter = 0;
 let doneCounter = 0;
 
 async function tasksInBoardCounter() {
-    const BASE_URL = 'https://join-61eb9-default-rtdb.europe-west1.firebasedatabase.app/';
+    const BASE_URL = 'https://joinalex-1e443-default-rtdb.europe-west1.firebasedatabase.app/';
     let response = await fetch(BASE_URL + '.json');
     let responseAsJson = await response.json();
-
-    // Laden der Daten
     let tasks = Object.values(responseAsJson.tasks);
 
-    // Zählen der Aufgaben und Klassifizieren nach Zustand
     tasks.forEach((task) => {
         switch (task.state) {
             case 'todo':
@@ -43,7 +38,6 @@ async function tasksInBoardCounter() {
         }
     });
 
-    // Anzeige der Anzahl der Aufgaben auf der Webseite
     let totalTasks = tasks.length;
     let totalTasksElement = document.getElementById('totalTasks');
     totalTasksElement.innerHTML = totalTasks;
@@ -101,7 +95,7 @@ async function getNextDueDate() {
 }
 
 async function countHighPriorityTasks() {
-    const BASE_URL = 'https://join-61eb9-default-rtdb.europe-west1.firebasedatabase.app/';
+    const BASE_URL = 'https://joinalex-1e443-default-rtdb.europe-west1.firebasedatabase.app/';
     const response = await fetch(BASE_URL + '.json');
     const responseAsJson = await response.json();
 
@@ -133,19 +127,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.addEventListener('DOMContentLoaded', function () {
     const loginAnimation = document.getElementById('loginAnimation');
-
-    // Animation starten
     loginAnimation.classList.add('fadeOutAnimation');
     loginAnimation.classList.add('fadeOutAnimation.finished');
-
-    // Eventlistener für das Ende der Animation hinzufügen
     loginAnimation.addEventListener(
         'animationend',
         function () {
-            // Element ausblenden, nachdem die Animation beendet ist
+           
             loginAnimation.style.display = 'none';
         },
         { once: true }
-    ); // Eventlistener nur einmal ausführen
+    ); 
 });
 
