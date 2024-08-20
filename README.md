@@ -24,4 +24,4 @@ You can explore the app live at [Join Demo](https://haehnlein-alexander.org/).
 - **GitHub:** Version control and collaboration.
 
 
-- **This project was developed as a group effort. 
+# This project was developed as a group effort. 
