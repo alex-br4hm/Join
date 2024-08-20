@@ -23,5 +23,6 @@ You can explore the app live at [Join Demo](https://haehnlein-alexander.org/).
 - **HTML/CSS:** Structure and styling of the user interface.
 - **GitHub:** Version control and collaboration.
 
+## information
 
 #### This project was developed as a group effort. 
